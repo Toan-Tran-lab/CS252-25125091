@@ -1,0 +1,59 @@
+* commit a8974f339f6d3912841b37aeb9a5efba179e1ef2 (HEAD -> main, origin/main)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 23 12:04:00 2026 +0700
+| 
+|     W01: P05
+| 
+|  .../P05/responsible_ai_usage_report.md       |  23 +++++++++++++++++
+|  .../P05/responsible_ai_usage_report.pdf      | Bin 0 -> 49140 bytes
+|  2 files changed, 23 insertions(+)
+| 
+* commit 52ca8938ee2e4b152e7b9bb537bdf76042e9b28d
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 23 12:03:54 2026 +0700
+| 
+|     W01: P04
+| 
+|  25125091_01_05/P04/report.md  |  40 ++++++++++++++++++++++++++++++++
+|  25125091_01_05/P04/report.pdf | Bin 0 -> 75237 bytes
+|  2 files changed, 40 insertions(+)
+| 
+* commit 365c3d49f74c8c264629f0dba8eee3f4464dbc35
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 23 12:03:50 2026 +0700
+| 
+|     W01: P03
+| 
+|  .../P03/individual_project_proposal.md       | 371 +++++++++++++++++
+|  .../P03/individual_project_proposal.pdf      | Bin 0 -> 350545 bytes
+|  2 files changed, 371 insertions(+)
+| 
+* commit 1e4deba480e61c6fac758801a62e1b4cc814333a
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 23 12:03:32 2026 +0700
+| 
+|     W01: P02
+| 
+|  25125091_01_05/P02/Team_Contract.md  | 112 +++++++++++++++++++++++++
+|  25125091_01_05/P02/Team_Contract.pdf | Bin 0 -> 208186 bytes
+|  2 files changed, 112 insertions(+)
+| 
+* commit 5562aa08e76a511a393633d8c1167195e860204b
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 23 12:03:07 2026 +0700
+| 
+|     W1: P01
+| 
+|  25125091_01_05/P01/team_member_evaluation.md  |   9 +++++++++
+|  25125091_01_05/P01/team_member_evaluation.pdf | Bin 0 -> 53177 bytes
+|  25125091_01_05/README.md                      |  12 ++++++++++++
+|  3 files changed, 21 insertions(+)
+| 
+* commit 5b85788d3fd451154ff2304ea5ca1963fa2a63ff
+  Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+  Date:   Fri Oct 16 19:52:16 2026 +0700
+  
+      First init
+  
+   README.md | 22 ++++++++++++++++++++++
+   1 file changed, 22 insertions(+)

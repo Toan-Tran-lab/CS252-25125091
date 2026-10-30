@@ -1,0 +1,70 @@
+* commit 17ab4fe36321239ab5a63d7601393972273db112 (HEAD -> main)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 30 21:58:33 2026 +0700
+| 
+|     W03 - complete course: Data Visualization
+| 
+|  25125091_03_04/P04/course completion.png     | Bin 0 -> 275749 bytes
+|  .../exercise-bar-charts-and-heatmaps.ipynb   |   1 +
+|  ...oosing-plot-types-and-custom-styles.ipynb |   1 +
+|  .../P04/exercise-distributions.ipynb         |   1 +
+|  .../P04/exercise-final-project.ipynb         |   1 +
+|  .../P04/exercise-hello-seaborn.ipynb         |   1 +
+|  .../P04/exercise-line-charts.ipynb           |   1 +
+|  .../P04/exercise-scatter-plots.ipynb         |   1 +
+|  8 files changed, 7 insertions(+)
+| 
+* commit 23354f7b319ce126a39278cdab2028e2f3d844af
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 30 21:46:46 2026 +0700
+| 
+|     W03 - Add chapter 2 excercise of course: Pandas
+| 
+|  .../P02/excercise-indexing-selecting-and-assigning.ipynb       | 1 +
+|  1 file changed, 1 insertion(+)
+| 
+* commit 637705500ccbcaff0e9dd5558ac22feaac161a65
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 30 21:41:12 2026 +0700
+| 
+|     W03 - complete course: Intermediate Machine
+|     Learning
+| 
+|  25125091_03_04/P03/course completion.png     | Bin 0 -> 305861 bytes
+|  .../P03/exercise-categorical-variables.ipynb |   1 +
+|  .../P03/exercise-cross-validation.ipynb      |   1 +
+|  .../P03/exercise-data-leakage.ipynb          |   1 +
+|  .../P03/exercise-introduction.ipynb          |   1 +
+|  .../P03/exercise-missing-values.ipynb        |   1 +
+|  25125091_03_04/P03/exercise-pipelines.ipynb  |   1 +
+|  25125091_03_04/P03/exercise-xgboost.ipynb    |   1 +
+|  8 files changed, 7 insertions(+)
+| 
+* commit fbce696f50cacb7faf1f03331a500b2d5a81a011
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Oct 30 21:40:55 2026 +0700
+| 
+|     W03 - complete course: Pandas
+| 
+|  25125091_03_04/P02/course completion.png     | Bin 0 -> 281154 bytes
+|  ...ercise-creating-reading-and-writing.ipynb |   1 +
+|  ...rcise-data-types-and-missing-values.ipynb |   1 +
+|  .../P02/exercise-grouping-and-sorting.ipynb  |   1 +
+|  .../exercise-renaming-and-combining.ipynb    |   1 +
+|  ...exercise-summary-functions-and-maps.ipynb |   1 +
+|  6 files changed, 5 insertions(+)
+| 
+* commit f6503291c9ca0a8f3a19d5a845e94ed75f3fcd10 (origin/main)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Tue Oct 27 20:19:30 2026 +0700
+| 
+|     W03 - complete course: Intro to machine learning
+| 
+|  25125091_03_04/P01/course completion.png     | Bin 0 -> 122273 bytes
+|  .../P01/exercise-explore-your-data.ipynb     | 730 +++++++++++++++++
+|  ...rcise-machine-learning-competitions.ipynb |   1 +
+|  .../P01/exercise-model-validation.ipynb      |   1 +
+|  .../P01/exercise-random-forests.ipynb        |   1 +
+|  ...ercise-underfitting-and-overfitting.ipynb |   1 +
+|  ...e-your-first-machine-learning-model.ipynb |   1 +
+|  7 files changed, 735 insertions(+)

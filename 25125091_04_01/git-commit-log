@@ -1,0 +1,39 @@
+* commit d662b00d1fb3b071a97e308d017da4572f8afb3b (HEAD -> main)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 6 15:10:50 2026 +0700
+| 
+|     W04 - Add test execution and live feature demo evidence
+| 
+|  25125091_04_01/P01/evidence/evidence (1).png | Bin 0 -> 173290 bytes
+|  25125091_04_01/P01/evidence/evidence (2).png | Bin 0 -> 331283 bytes
+|  25125091_04_01/P01/evidence/evidence (3).png | Bin 0 -> 208186 bytes
+|  25125091_04_01/P01/evidence/evidence (4).png | Bin 0 -> 198845 bytes
+|  4 files changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit d813584e863a88c821f4ff2fff63699b5d0f46f6
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 6 15:10:36 2026 +0700
+| 
+|     W04 - Add development report and AI usage declaration
+| 
+|  25125091_04_01/P01/AI_Declaration.md |  37 ++++
+|  25125091_04_01/P01/report.md         | 254 +++++++++++++++++++++++++
+|  25125091_04_01/P01/report.pdf        | Bin 0 -> 372385 bytes
+|  3 files changed, 291 insertions(+)
+| 
+* commit fe4239777a51286f94c5efc061349ad8d080ceb3
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 6 15:06:02 2026 +0700
+| 
+|     W04 - Add source code, unit tests, and demo script for signals and alerts
+| 
+|  25125091_04_01/P01/demo_feature_in_action.py | 191 ++++++++++++
+|  25125091_04_01/P01/src/alerts/__init__.py    |  19 ++
+|  25125091_04_01/P01/src/alerts/proximity.py   | 261 +++++++++++++++++
+|  25125091_04_01/P01/src/signals/__init__.py   |  23 ++
+|  25125091_04_01/P01/src/signals/webster.py    | 150 ++++++++++
+|  .../test_traffic_alert.cpython-312.pyc       | Bin 0 -> 10035 bytes
+|  .../test_webster_signal.cpython-312.pyc      | Bin 0 -> 9672 bytes
+|  .../P01/tests/test_traffic_alert.py          | 171 +++++++++++
+|  .../P01/tests/test_webster_signal.py         | 161 ++++++++++
+|  9 files changed, 976 insertions(+)

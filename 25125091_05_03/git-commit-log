@@ -1,0 +1,294 @@
+* commit 74ab868ae1e6e20cb0bceae8b8df83c551ba6195 (HEAD -> main)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:51:58 2026 +0700
+| 
+|     W05 - Add README.md for P01 and P02
+| 
+|  25125091_05_03/P01/README.md | 16 ++++++++++++++++
+|  25125091_05_03/P02/README.md | 16 ++++++++++++++++
+|  2 files changed, 32 insertions(+)
+| 
+* commit cdeda9f10576336e685c3cdabf4440553e9d671f
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:51:38 2026 +0700
+| 
+|     W05 - complete course: Loop Engineering
+| 
+|  25125091_05_03/P03/L2.ipynb              |  529 ++++++++++
+|  25125091_05_03/P03/L3.ipynb              |  332 ++++++
+|  25125091_05_03/P03/L4.ipynb              |  360 +++++++
+|  25125091_05_03/P03/L6.ipynb              | 1115 ++++++++++++++++++++
+|  25125091_05_03/P03/README.md             |   19 +
+|  25125091_05_03/P03/course completion.png |  Bin 0 -> 291537 bytes
+|  6 files changed, 2355 insertions(+)
+| 
+* commit 6e768e9b100e4377cddd5a520c6252037d5e737c
+
+Legion@Legion-Toan-Tran MINGW64 ~/Desktop/HCMUS/2.1/Computational Thinking/CS252-25125091/25125091_05_03 (main)
+$ git log --graph --all --stat --since="2026-10
+-01 00:00:00" --until="2026-12-09 23:59:59"
+* commit 74ab868ae1e6e20cb0bceae8b8df83c551ba6195 (HEAD -> main)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:51:58 2026 +0700
+| 
+|     W05 - Add README.md for P01 and P02
+| 
+|  25125091_05_03/P01/README.md | 16 ++++++++++++++++
+|  25125091_05_03/P02/README.md | 16 ++++++++++++++++
+|  2 files changed, 32 insertions(+)
+| 
+* commit cdeda9f10576336e685c3cdabf4440553e9d671f
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:51:38 2026 +0700
+| 
+|     W05 - complete course: Loop Engineering
+| 
+|  25125091_05_03/P03/L2.ipynb              |  529 ++++++++++
+|  25125091_05_03/P03/L3.ipynb              |  332 ++++++
+|  25125091_05_03/P03/L4.ipynb              |  360 +++++++
+|  25125091_05_03/P03/L6.ipynb              | 1115 ++++++++++++++++++++
+|  25125091_05_03/P03/README.md             |   19 +
+|  25125091_05_03/P03/course completion.png |  Bin 0 -> 291537 bytes
+|  6 files changed, 2355 insertions(+)
+| 
+* commit 6e768e9b100e4377cddd5a520c6252037d5e737c
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:41:28 2026 +0700
+| 
+|     W05 - complete course: Introduction to LangGraph
+| 
+|  25125091_05_03/P02/course completion.png     |  Bin 0 -> 414327 bytes
+|  .../basics-checkpoint.ipynb                  |  348 +++
+|  25125091_05_03/P02/module-0/basics.ipynb     |  348 +++
+|  .../agent-checkpoint.ipynb                   |  370 ++++
+|  .../agent-memory-checkpoint.ipynb            |  537 +++++
+|  .../chain-checkpoint.ipynb                   |  700 +++++++
+|  .../deployment-checkpoint.ipynb              |  459 ++++
+|  .../router-checkpoint.ipynb                  |  278 +++
+|  .../simple-graph-checkpoint.ipynb            |  374 ++++
+|  .../P02/module-1/agent-memory.ipynb          |  537 +++++
+|  25125091_05_03/P02/module-1/agent.ipynb      |  370 ++++
+|  25125091_05_03/P02/module-1/chain.ipynb      |  700 +++++++
+|  25125091_05_03/P02/module-1/deployment.ipynb |  459 ++++
+|  25125091_05_03/P02/module-1/router.ipynb     |  278 +++
+|  .../P02/module-1/simple-graph.ipynb          |  374 ++++
+|  25125091_05_03/P02/module-1/studio/.env      |    6 +
+|  .../P02/module-1/studio/.env.example         |    1 +
+|  .../.ipynb_checkpoints/agent-checkpoint.py   |   61 +
+|  .../.ipynb_checkpoints/router-checkpoint.py  |   38 +
+|  .../.ipynb_checkpoints/simple-checkpoint.py  |   49 +
+|  .../.langgraph_checkpoint.1.pckl             |  Bin 0 -> 6 bytes
+|  .../.langgraph_checkpoint.2.pckl             |  Bin 0 -> 6 bytes
+|  .../.langgraph_checkpoint.3.pckl             |  Bin 0 -> 6 bytes
+|  .../.langgraph_api/.langgraph_ops.pckl       |  Bin 0 -> 4421 bytes
+|  .../.langgraph_retry_counter.pckl            |  Bin 0 -> 6 bytes
+|  .../studio/.langgraph_api/store.pckl         |  Bin 0 -> 6 bytes
+|  .../studio/.langgraph_api/store.vectors.pckl |  Bin 0 -> 6 bytes
+|  .../studio/__pycache__/agent.cpython-312.pyc |  Bin 0 -> 2178 bytes
+|  .../__pycache__/router.cpython-312.pyc       |  Bin 0 -> 1530 bytes
+|  .../__pycache__/router.cpython-313.pyc       |  Bin 0 -> 1474 bytes
+|  .../__pycache__/simple.cpython-312.pyc       |  Bin 0 -> 1957 bytes
+|  .../__pycache__/simple.cpython-313.pyc       |  Bin 0 -> 2021 bytes
+|  25125091_05_03/P02/module-1/studio/agent.py  |   61 +
+|  .../P02/module-1/studio/langgraph.json       |   13 +
+|  .../P02/module-1/studio/requirements.txt     |    8 +
+|  25125091_05_03/P02/module-1/studio/router.py |   38 +
+|  25125091_05_03/P02/module-1/studio/simple.py |   49 +
+|  .../chatbot-summarization-checkpoint.ipynb   |  508 +++++
+|  .../multiple-schemas-checkpoint.ipynb        |  389 ++++
+|  .../state-reducers-checkpoint.ipynb          |  906 ++++++++
+|  .../state-schema-checkpoint.ipynb            |  563 +++++
+|  .../trim-filter-messages-checkpoint.ipynb    |  774 +++++++
+|  .../module-2/chatbot-external-memory.ipynb   |  423 ++++
+|  .../P02/module-2/chatbot-summarization.ipynb |  508 +++++
+|  .../P02/module-2/multiple-schemas.ipynb      |  389 ++++
+|  .../P02/module-2/state-reducers.ipynb        |  906 ++++++++
+|  .../P02/module-2/state-schema.ipynb          |  563 +++++
+|  .../P02/module-2/state_db/example.db         |  Bin 0 -> 110592 bytes
+|  .../P02/module-2/studio/.env.example         |    1 +
+|  .../P02/module-2/studio/chatbot.py           |   86 +
+|  .../P02/module-2/studio/langgraph.json       |   11 +
+|  .../P02/module-2/studio/requirements.txt     |    7 +
+|  .../P02/module-2/trim-filter-messages.ipynb  |  743 +++++++
+|  .../P02/module-3/breakpoints.ipynb           |  577 +++++
+|  .../P02/module-3/dynamic-breakpoints.ipynb   |  601 ++++++
+|  .../module-3/edit-state-human-feedback.ipynb | 1000 +++++++++
+|  .../module-3/streaming-interruption.ipynb    | 1747 ++++++++++++++++
+|  .../P02/module-3/studio/.env.example         |    1 +
+|  25125091_05_03/P02/module-3/studio/agent.py  |   61 +
+|  .../module-3/studio/dynamic_breakpoints.py   |   33 +
+|  .../P02/module-3/studio/langgraph.json       |   12 +
+|  .../P02/module-3/studio/requirements.txt     |    8 +
+|  .../P02/module-3/time-travel.ipynb           | 1407 +++++++++++++
+|  25125091_05_03/P02/module-4/map-reduce.ipynb |  440 ++++
+|  .../P02/module-4/parallelization.ipynb       |  883 ++++++++
+|  .../P02/module-4/research-assistant.ipynb    | 1566 ++++++++++++++
+|  .../P02/module-4/studio/.env.example         |    2 +
+|  .../P02/module-4/studio/langgraph.json       |   14 +
+|  .../P02/module-4/studio/map_reduce.py        |   69 +
+|  .../P02/module-4/studio/parallelization.py   |   92 +
+|  .../module-4/studio/research_assistant.py    |  547 +++++
+|  .../P02/module-4/studio/sub_graphs.py        |  103 +
+|  25125091_05_03/P02/module-4/sub-graph.ipynb  |  489 +++++
+|  .../P02/module-5/memory_agent.ipynb          | 1324 ++++++++++++
+|  .../P02/module-5/memory_store.ipynb          |  823 ++++++++
+|  .../module-5/memoryschema_collection.ipynb   |  862 ++++++++
+|  .../P02/module-5/memoryschema_profile.ipynb  | 1438 +++++++++++++
+|  .../P02/module-5/studio/.env.example         |    1 +
+|  .../P02/module-5/studio/configuration.py     |   27 +
+|  .../P02/module-5/studio/langgraph.json       |   14 +
+|  .../P02/module-5/studio/memory_agent.py      |  393 ++++
+|  .../P02/module-5/studio/memory_store.py      |  104 +
+|  .../studio/memoryschema_collection.py        |  114 +
+|  .../module-5/studio/memoryschema_profile.py  |  104 +
+|  .../P02/module-5/studio/requirements.txt     |    8 +
+|  25125091_05_03/P02/module-6/assistant.ipynb  |  601 ++++++
+|  25125091_05_03/P02/module-6/connecting.ipynb |  987 +++++++++
+|  25125091_05_03/P02/module-6/creating.ipynb   |  143 ++
+|  .../P02/module-6/deployment/configuration.py |   29 +
+|  .../deployment/docker-compose-example.yml    |   43 +
+|  .../P02/module-6/deployment/langgraph.json   |   10 +
+|  .../P02/module-6/deployment/requirements.txt |    8 +
+|  .../P02/module-6/deployment/task_maistro.py  |  410 ++++
+|  .../P02/module-6/double-texting.ipynb        |  513 +++++
+|  94 files changed, 30841 insertions(+)
+| 
+* commit 0b756e87b0fb4c91869ee0f816c483b99c415f3e
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:41:05 2026 +0700
+| 
+|     W05 - Complete course: Introduction to Langchain
+| 
+|  25125091_05_03/P01/course completion.png     |  Bin 0 -> 404836 bytes
+|  25125091_05_03/P01/notebooks/.DS_Store       |  Bin 0 -> 6148 bytes
+|  .../1.1_foundational_models-checkpoint.ipynb |  290 +
+|  .../1.1_prompting-checkpoint.ipynb           |  242 +
+|  .../1.2_tools-checkpoint.ipynb               |  167 +
+|  .../1.2_web_search-checkpoint.ipynb          |  155 +
+|  .../1.3_memory-checkpoint.ipynb              |  181 +
+|  .../1.4_multimodal_messages-checkpoint.ipynb |  234 +
+|  .../1.5_personal_chef-checkpoint.ipynb       |  133 +
+|  .../1.5_personal_chef-checkpoint.py          |   34 +
+|  .../Untitled-checkpoint.ipynb                |    6 +
+|  .../langgraph-checkpoint.json                |    7 +
+|  .../.langgraph_checkpoint.1.pckl             |  Bin 0 -> 20667 bytes
+|  .../.langgraph_checkpoint.2.pckl             |  Bin 0 -> 14797 bytes
+|  .../.langgraph_checkpoint.3.pckl             |  Bin 0 -> 36896 bytes
+|  .../.langgraph_api/.langgraph_ops.pckl       |  Bin 0 -> 18087 bytes
+|  .../.langgraph_retry_counter.pckl            |  Bin 0 -> 6 bytes
+|  .../module-1/.langgraph_api/store.pckl       |  Bin 0 -> 6 bytes
+|  .../.langgraph_api/store.vectors.pckl        |  Bin 0 -> 6 bytes
+|  .../module-1/1.1_foundational_models.ipynb   |  374 +
+|  .../notebooks/module-1/1.1_prompting.ipynb   |  321 +
+|  .../P01/notebooks/module-1/1.2_tools.ipynb   |  216 +
+|  .../notebooks/module-1/1.2_web_search.ipynb  |  231 +
+|  .../P01/notebooks/module-1/1.3_memory.ipynb  |  230 +
+|  .../module-1/1.4_multimodal_messages.ipynb   |  355 +
+|  .../module-1/1.5_personal_chef.ipynb         |  133 +
+|  .../notebooks/module-1/1.5_personal_chef.py  |   34 +
+|  .../P01/notebooks/module-1/Untitled.ipynb    |   33 +
+|  .../P01/notebooks/module-1/langgraph.json    |    7 +
+|  .../notebooks/module-1/resources/moon.png    |  Bin 0 -> 358916 bytes
+|  .../2.1_mcp-checkpoint.ipynb                 |  217 +
+|  .../2.1_travel_agent-checkpoint.ipynb        |  123 +
+|  .../2.2_runtime_context-checkpoint.ipynb     |  174 +
+|  .../2.2_state-checkpoint.ipynb               |  210 +
+|  .../2.3_multi_agent-checkpoint.ipynb         |  164 +
+|  .../2.4_wedding_planners-checkpoint.ipynb    |  511 ++
+|  .../bonus_rag-checkpoint.ipynb               |  208 +
+|  .../bonus_sql-checkpoint.ipynb               |  132 +
+|  .../P01/notebooks/module-2/2.1_mcp.ipynb     |  278 +
+|  .../module-2/2.1_travel_agent.ipynb          |  171 +
+|  .../module-2/2.2_runtime_context.ipynb       |  209 +
+|  .../P01/notebooks/module-2/2.2_state.ipynb   |  265 +
+|  .../notebooks/module-2/2.3_multi_agent.ipynb |  186 +
+|  .../module-2/2.4_wedding_planners.ipynb      |  486 +
+|  .../P01/notebooks/module-2/bonus_rag.ipynb   |  208 +
+|  .../P01/notebooks/module-2/bonus_sql.ipynb   |  132 +
+|  .../module-2/resources/2.1_mcp_server.py     |   60 +
+|  .../notebooks/module-2/resources/Chinook.db  |  Bin 0 -> 913408 bytes
+|  .../resources/acmecorp-employee-handbook.pdf |   80 +
+|  .../3.2_managing_messages-checkpoint.ipynb   |  194 +
+|  .../3.3_hitl-checkpoint.ipynb                |  260 +
+|  .../3.4_dynamic_models-checkpoint.ipynb      |  161 +
+|  .../3.4_dynamic_prompts-checkpoint.ipynb     |  138 +
+|  .../3.4_dynamic_tools-checkpoint.ipynb       |  155 +
+|  .../3.5_email_agent-checkpoint.ipynb         |  394 +
+|  .../3.5_email_agent-checkpoint.py            |  111 +
+|  .../langgraph-checkpoint.json                |    7 +
+|  .../module-3/3.2_managing_messages.ipynb     |  264 +
+|  .../P01/notebooks/module-3/3.3_hitl.ipynb    |  395 +
+|  .../module-3/3.4_dynamic_models.ipynb        |  234 +
+|  .../module-3/3.4_dynamic_prompts.ipynb       |  173 +
+|  .../module-3/3.4_dynamic_tools.ipynb         |  183 +
+|  .../notebooks/module-3/3.5_email_agent.ipynb |  368 +
+|  .../notebooks/module-3/3.5_email_agent.py    |  111 +
+|  .../module-3/agent-chat-ui/.codespellignore  |    1 +
+|  .../module-3/agent-chat-ui/.dockerignore     |    4 +
+|  .../module-3/agent-chat-ui/.env.example      |   13 +
+|  .../agent-chat-ui/.github/workflows/ci.yml   |   74 +
+|  .../module-3/agent-chat-ui/.gitignore        |   30 +
+|  .../module-3/agent-chat-ui/.prettierignore   |    6 +
+|  .../notebooks/module-3/agent-chat-ui/LICENSE |   21 +
+|  .../module-3/agent-chat-ui/README.md         |  242 +
+|  .../module-3/agent-chat-ui/components.json   |   21 +
+|  .../module-3/agent-chat-ui/eslint.config.js  |   33 +
+|  .../module-3/agent-chat-ui/next.config.mjs   |   10 +
+|  .../module-3/agent-chat-ui/package.json      |   95 +
+|  .../module-3/agent-chat-ui/pnpm-lock.yaml    | 7316 ++++++++++++++++
+|  .../agent-chat-ui/postcss.config.mjs         |    5 +
+|  .../agent-chat-ui/prettier.config.js         |   11 +
+|  .../module-3/agent-chat-ui/public/logo.png   |  Bin 0 -> 38140 bytes
+|  .../src/app/api/[..._path]/route.ts          |   11 +
+|  .../agent-chat-ui/src/app/globals.css        |  151 +
+|  .../agent-chat-ui/src/app/layout.tsx         |   34 +
+|  .../module-3/agent-chat-ui/src/app/page.tsx  |   23 +
+|  .../src/components/icons/github.tsx          |   12 +
+|  .../src/components/icons/langgraph.tsx       |   19 +
+|  .../thread/ContentBlocksPreview.tsx          |   37 +
+|  .../components/thread/MultimodalPreview.tsx  |  115 +
+|  .../components/inbox-item-input.tsx          |  499 ++
+|  .../agent-inbox/components/state-view.tsx    |  303 +
+|  .../components/thread-actions-view.tsx       |  449 +
+|  .../agent-inbox/components/thread-id.tsx     |   84 +
+|  .../components/tool-call-table.tsx           |   51 +
+|  .../hooks/use-interrupted-actions.tsx        |  240 +
+|  .../components/thread/agent-inbox/index.tsx  |  104 +
+|  .../components/thread/agent-inbox/types.ts   |  104 +
+|  .../components/thread/agent-inbox/utils.ts   |  238 +
+|  .../src/components/thread/artifact.tsx       |  189 +
+|  .../src/components/thread/history/index.tsx  |  146 +
+|  .../src/components/thread/index.tsx          |  566 ++
+|  .../components/thread/markdown-styles.css    |   45 +
+|  .../src/components/thread/markdown-text.tsx  |  260 +
+|  .../src/components/thread/messages/ai.tsx    |  229 +
+|  .../thread/messages/generic-interrupt.tsx    |  160 +
+|  .../src/components/thread/messages/human.tsx |  151 +
+|  .../components/thread/messages/shared.tsx    |  221 +
+|  .../thread/messages/tool-calls.tsx           |  191 +
+|  .../components/thread/syntax-highlighter.tsx |   40 +
+|  .../thread/tooltip-icon-button.tsx           |   44 +
+|  .../src/components/thread/utils.ts           |   15 +
+|  .../src/components/ui/avatar.tsx             |   51 +
+|  .../src/components/ui/button.tsx             |   61 +
+|  .../agent-chat-ui/src/components/ui/card.tsx |   75 +
+|  .../src/components/ui/input.tsx              |   20 +
+|  .../src/components/ui/label.tsx              |   22 +
+|  .../src/components/ui/password-input.tsx     |   60 +
+|  .../src/components/ui/separator.tsx          |   26 +
+|  .../src/components/ui/sheet.tsx              |  157 +
+|  .../src/components/ui/skeleton.tsx           |   13 +
+|  .../src/components/ui/sonner.tsx             |   27 +
+|  .../src/components/ui/switch.tsx             |   29 +
+|  .../src/components/ui/textarea.tsx           |   18 +
+|  .../src/components/ui/tooltip.tsx            |   67 +
+|  .../src/hooks/use-file-upload.tsx            |  270 +
+|  .../src/hooks/useMediaQuery.tsx              |   16 +
+|  .../agent-chat-ui/src/providers/Stream.tsx   |  287 +
+|  .../agent-chat-ui/src/providers/Thread.tsx   |   75 +
+|  .../agent-chat-ui/src/providers/client.ts    |    8 +
+|  .../agent-chat-ui/tailwind.config.js         |   65 +
+|  .../module-3/agent-chat-ui/tsconfig.json     |   34 +
+|  .../P01/notebooks/module-3/langgraph.json    |    7 +
+|  .../notebooks/module-3/resources/Chinook.db  |  Bin 0 -> 913408 bytes
+|  132 files changed, 24346 insertions(+)

@@ -1,63 +1,10 @@
-* commit 74ab868ae1e6e20cb0bceae8b8df83c551ba6195 (HEAD -> main)
+* commit 798bb3a7035cc9dbb9c4f4e4d45f4986c6f86056 (HEAD -> main)
 | Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
-| Date:   Fri Nov 13 22:51:58 2026 +0700
-| 
-|     W05 - Add README.md for P01 and P02
-| 
-|  25125091_05_03/P01/README.md | 16 ++++++++++++++++
-|  25125091_05_03/P02/README.md | 16 ++++++++++++++++
-|  2 files changed, 32 insertions(+)
-| 
-* commit cdeda9f10576336e685c3cdabf4440553e9d671f
-| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
-| Date:   Fri Nov 13 22:51:38 2026 +0700
-| 
-|     W05 - complete course: Loop Engineering
-| 
-|  25125091_05_03/P03/L2.ipynb              |  529 ++++++++++
-|  25125091_05_03/P03/L3.ipynb              |  332 ++++++
-|  25125091_05_03/P03/L4.ipynb              |  360 +++++++
-|  25125091_05_03/P03/L6.ipynb              | 1115 ++++++++++++++++++++
-|  25125091_05_03/P03/README.md             |   19 +
-|  25125091_05_03/P03/course completion.png |  Bin 0 -> 291537 bytes
-|  6 files changed, 2355 insertions(+)
-| 
-* commit 6e768e9b100e4377cddd5a520c6252037d5e737c
-
-Legion@Legion-Toan-Tran MINGW64 ~/Desktop/HCMUS/2.1/Computational Thinking/CS252-25125091/25125091_05_03 (main)
-$ git log --graph --all --stat --since="2026-10
--01 00:00:00" --until="2026-12-09 23:59:59"
-* commit 74ab868ae1e6e20cb0bceae8b8df83c551ba6195 (HEAD -> main)
-| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
-| Date:   Fri Nov 13 22:51:58 2026 +0700
-| 
-|     W05 - Add README.md for P01 and P02
-| 
-|  25125091_05_03/P01/README.md | 16 ++++++++++++++++
-|  25125091_05_03/P02/README.md | 16 ++++++++++++++++
-|  2 files changed, 32 insertions(+)
-| 
-* commit cdeda9f10576336e685c3cdabf4440553e9d671f
-| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
-| Date:   Fri Nov 13 22:51:38 2026 +0700
-| 
-|     W05 - complete course: Loop Engineering
-| 
-|  25125091_05_03/P03/L2.ipynb              |  529 ++++++++++
-|  25125091_05_03/P03/L3.ipynb              |  332 ++++++
-|  25125091_05_03/P03/L4.ipynb              |  360 +++++++
-|  25125091_05_03/P03/L6.ipynb              | 1115 ++++++++++++++++++++
-|  25125091_05_03/P03/README.md             |   19 +
-|  25125091_05_03/P03/course completion.png |  Bin 0 -> 291537 bytes
-|  6 files changed, 2355 insertions(+)
-| 
-* commit 6e768e9b100e4377cddd5a520c6252037d5e737c
-| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
-| Date:   Fri Nov 13 22:41:28 2026 +0700
+| Date:   Fri Nov 13 23:03:03 2026 +0700
 | 
 |     W05 - complete course: Introduction to LangGraph
 | 
-|  25125091_05_03/P02/course completion.png     |  Bin 0 -> 414327 bytes
+|  25125091_05_03/P02/course completion.png     |  Bin 0 -> 374885 bytes
 |  .../basics-checkpoint.ipynb                  |  348 +++
 |  25125091_05_03/P02/module-0/basics.ipynb     |  348 +++
 |  .../agent-checkpoint.ipynb                   |  370 ++++
@@ -72,7 +19,35 @@ $ git log --graph --all --stat --since="2026-10
 |  25125091_05_03/P02/module-1/deployment.ipynb |  459 ++++
 |  25125091_05_03/P02/module-1/router.ipynb     |  278 +++
 |  .../P02/module-1/simple-graph.ipynb          |  374 ++++
-|  25125091_05_03/P02/module-1/studio/.env      |    6 +
+|  .../P02/module-1/studio/.env.example         |    1 +
+|  .../.ipynb_checkpoints/agent-checkpoint.py   |   61 +
+|  .../.ipynb_checkpoints/router-checkpoint.py  |   38 +
+|  .../.ipynb_checkpoints/simple-checkpoint.py  |   49 +
+
+Legion@Legion-Toan-Tran MINGW64 ~/Desktop/HCMUS/2.1/Computational Thinking/CS252-25125091/25125091_05_03 (main)
+$ git log --graph --all --stat --since="2026-10
+-01 00:00:00" --until="2026-12-09 23:59:59"
+* commit 798bb3a7035cc9dbb9c4f4e4d45f4986c6f86056 (HEAD -> main)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 23:03:03 2026 +0700
+| 
+|     W05 - complete course: Introduction to LangGraph
+| 
+|  25125091_05_03/P02/course completion.png     |  Bin 0 -> 374885 bytes
+|  .../basics-checkpoint.ipynb                  |  348 +++
+|  25125091_05_03/P02/module-0/basics.ipynb     |  348 +++
+|  .../agent-checkpoint.ipynb                   |  370 ++++
+|  .../agent-memory-checkpoint.ipynb            |  537 +++++
+|  .../chain-checkpoint.ipynb                   |  700 +++++++
+|  .../deployment-checkpoint.ipynb              |  459 ++++
+|  .../router-checkpoint.ipynb                  |  278 +++
+|  .../simple-graph-checkpoint.ipynb            |  374 ++++
+|  .../P02/module-1/agent-memory.ipynb          |  537 +++++
+|  25125091_05_03/P02/module-1/agent.ipynb      |  370 ++++
+|  25125091_05_03/P02/module-1/chain.ipynb      |  700 +++++++
+|  25125091_05_03/P02/module-1/deployment.ipynb |  459 ++++
+|  25125091_05_03/P02/module-1/router.ipynb     |  278 +++
+|  .../P02/module-1/simple-graph.ipynb          |  374 ++++
 |  .../P02/module-1/studio/.env.example         |    1 +
 |  .../.ipynb_checkpoints/agent-checkpoint.py   |   61 +
 |  .../.ipynb_checkpoints/router-checkpoint.py  |   38 +
@@ -151,7 +126,41 @@ $ git log --graph --all --stat --since="2026-10
 |  .../P02/module-6/deployment/requirements.txt |    8 +
 |  .../P02/module-6/deployment/task_maistro.py  |  410 ++++
 |  .../P02/module-6/double-texting.ipynb        |  513 +++++
-|  94 files changed, 30841 insertions(+)
+|  93 files changed, 30835 insertions(+)
+| 
+* commit 7cbad7d7ebc7785108705f89979075e69cb2bac6
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:53:59 2026 +0700
+| 
+|     W05 - commit log & README
+| 
+|  25125091_05_03/README.md      |  12 ++
+|  25125091_05_03/git-commit-log | 294 ++++++++++++++++++++++++++++++++
+|  2 files changed, 306 insertions(+)
+| 
+* commit 0d2e8ab3d152a00ab4027efb8a15b3c29b4b333b
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:51:58 2026 +0700
+| 
+|     W05 - Add README.md for P01 and P02
+| 
+|  25125091_05_03/P01/README.md | 16 ++++++++++++++++
+|  25125091_05_03/P02/README.md | 16 ++++++++++++++++
+|  2 files changed, 32 insertions(+)
+| 
+* commit ea498554352430ffc10e4a99cf9817066fff09b4
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 13 22:51:38 2026 +0700
+| 
+|     W05 - complete course: Loop Engineering
+| 
+|  25125091_05_03/P03/L2.ipynb              |  529 ++++++++++
+|  25125091_05_03/P03/L3.ipynb              |  332 ++++++
+|  25125091_05_03/P03/L4.ipynb              |  360 +++++++
+|  25125091_05_03/P03/L6.ipynb              | 1115 ++++++++++++++++++++
+|  25125091_05_03/P03/README.md             |   19 +
+|  25125091_05_03/P03/course completion.png |  Bin 0 -> 291537 bytes
+|  6 files changed, 2355 insertions(+)
 | 
 * commit 0b756e87b0fb4c91869ee0f816c483b99c415f3e
 | Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>

@@ -12,5 +12,5 @@ This folder contains my coursework and module exercises from the **LangChain Aca
 
 ## Repository Notes
 
-* Only the core course modules (`module-0` through `module-6`) are included in this repository.
+* Only the core course modules (`module-1` through `module-3`) are included in this repository.
 * The Python virtual environment (`.venv/`) and `.env` file (containing private API keys) are excluded for repository cleanliness and security. To run the code locally, set up your own virtual environment, install the required dependencies, and configure your API keys in a local `.env` file.

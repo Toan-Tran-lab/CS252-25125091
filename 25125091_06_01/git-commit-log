@@ -1,0 +1,39 @@
+* commit ea5b10fca0ab4db2871f7be44427526c046712c7 (HEAD -> main)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 20 16:57:57 2026 +0700
+| 
+|     W06 - add evidence and README.md
+| 
+|  .../P01/evidence/git-commit-log-project      | 98 ++++++++++++++++++
+|  25125091_06_01/P01/evidence/video.txt        |  1 +
+|  25125091_06_01/README.md                     | 96 +++++++++++++++++
+|  3 files changed, 195 insertions(+)
+| 
+* commit 046255ad3cee004b2211acf102deb8adc2a2e9a7
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 20 16:57:29 2026 +0700
+| 
+|     W06 - Add report, AI declaration, and report
+| 
+|  25125091_06_01/P01/AI_Declaration.md  |  42 +++++
+|  25125091_06_01/P01/AI_Declaration.pdf | Bin 0 -> 73564 bytes
+|  25125091_06_01/P01/README.md          |  31 ++++
+|  25125091_06_01/P01/explaination.pdf   | Bin 0 -> 252072 bytes
+|  25125091_06_01/P01/explanation.md     | 220 ++++++++++++++++++++++++
+|  25125091_06_01/P01/explanation.pdf    | Bin 0 -> 252072 bytes
+|  25125091_06_01/P01/report.md          | 220 ++++++++++++++++++++++++
+|  25125091_06_01/P01/report.pdf         | Bin 0 -> 329517 bytes
+|  8 files changed, 513 insertions(+)
+| 
+* commit 40cebcd360db9cd05e28aec13cb5889bf5120ef2
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 20 16:55:30 2026 +0700
+| 
+|     W06 - Add the complete source code of 2 main features
+| 
+|  25125091_06_01/P01/src/alerts/__init__.py  |  27 ++
+|  25125091_06_01/P01/src/alerts/proximity.py | 261 +++++++++++++++++++
+|  25125091_06_01/P01/src/alerts/voice.py     |  39 +++
+|  25125091_06_01/P01/src/signals/__init__.py |  31 +++
+|  25125091_06_01/P01/src/signals/webster.py  | 249 ++++++++++++++++++
+|  5 files changed, 607 insertions(+)

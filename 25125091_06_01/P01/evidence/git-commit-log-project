@@ -1,0 +1,98 @@
+* commit f8c7646eac25239c1c40fa7376d5768be0463daf (origin/feat/traffic-alert-system)
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Tue Nov 17 22:21:05 2026 +0700
+| 
+|     docs(traffic-alert): add Section 1 Computational Thinking report for Week 8 pre-presentation
+| 
+|  .../SECTION_1_COMPUTATIONAL_THINKING.md      | 330 +++++++++++++++++
+|  1 file changed, 330 insertions(+)
+| 
+* commit 1898264bed6b44068faceb838b14e5e06dfbd0de
+  Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+  Date:   Tue Nov 17 21:05:22 2026 +0700
+  
+      feat(signals,alerts): add Webster intersection delays and Web Speech voice alert for simulation demo
+  
+   smartroute_integrations/signal.py    |   5 ++
+   src/smartroute/alerts/__init__.py    |   8 +++
+   src/smartroute/alerts/voice.py       |  39 +++++++++++++
+   src/smartroute/signals/__init__.py   |   8 +++
+   src/smartroute/signals/webster.py    |  99 ++++++++++++++++++++++++++++++++
+   tests/routing/test_webster_lookup.py | 101 +++++++++++++++++++++++++++++++++
+   6 files changed, 260 insertions(+)
+  
+* commit 763bfa1cbd9b1f7de9b2dc85b2444e85bc5fadf4
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Fri Nov 6 14:31:10 2026 +0700
+| 
+|     fix(alerts): support standard dict mapping in proximity overlay lookup
+| 
+|  src/smartroute/alerts/proximity.py | 11 ++++++++---
+|  1 file changed, 8 insertions(+), 3 deletions(-)
+| 
+* commit 377320beabab0ca30f2c003cd416eefff4ea4e7e
+| Merge: bc1f29d 440613e
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Thu Nov 5 12:44:05 2026 +0700
+| 
+|     Merge remote-tracking branch 'origin/feat/flood-predictor' into feat/traffic-alert-system
+| 
+* commit bc1f29d0671c2a3d10ecc78efd58c61c1b791bfd
+| Merge: 3e8d588 aeedd08
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Wed Nov 4 12:07:52 2026 +0700
+| 
+|     Merge remote-tracking branch 'origin/feat/flood-predictor' into feat/traffic-alert-system
+| 
+* commit 3e8d5885675d9d2af39c0963dd00b3097b0b6ebf
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Wed Nov 4 11:55:16 2026 +0700
+| 
+|     docs(traffic-alert): add module guide, CT iterations report, and defense Q&A
+|     
+|     - Add quickstart guide and teammate integration contracts
+|     - Document 3 Webster CT iterations with empirical before/after evidence
+|     - Add Mermaid sequence and state diagrams for lookahead alert pipeline
+|     - Include Vietnamese defense Q&A for oral presentation
+| 
+|  docs/traffic_alert/README.md               | 121 +++++++++
+|  docs/traffic_alert/REPORT_traffic_alert.md | 247 +++++++++++++++++++
+|  2 files changed, 368 insertions(+)
+| 
+* commit 6c9102b231c98cc2da1b5fc0e54e6c05623979fd
+| Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+| Date:   Mon Nov 2 23:57:37 2026 +0700
+| 
+|     feat(alerts): add proximity hazard alerts and multi-tier triggers
+|     
+|     - Add multi-tier hazard alerts (INFO, WARNING, CRITICAL) based on vehicle clearance
+|     - Implement look-ahead proximity scanning with unit tests
+| 
+|  src/smartroute/alerts/__init__.py   |  19 ++
+|  src/smartroute/alerts/proximity.py  | 256 ++++++++++++++++++++++++++
+|  tests/routing/test_traffic_alert.py | 171 +++++++++++++++++
+|  3 files changed, 446 insertions(+)
+| 
+* commit 23905123dab3e9dd729023564502fe5a0c592c80
+  Author: Toan-Tran-lab <tranductoan2k7nt@gmail.com>
+  Date:   Mon Nov 2 23:44:36 2026 +0700
+  
+      feat(signals): implement Webster traffic light delay model with 3 CT iterations and unit tests
+      
+      - Implement Module M3 traffic signal delay modeling based on Webster (1958)
+      - Structure implementation across 3 CT iterations:
+        * V1 (Baseline): flat delay heuristic
+        * V2 (Probabilistic): uniform-arrival expected delay E[wait] = R^2 / (2(R+G))
+        * V3 (Context-Aware Dynamic): queue clearance with hourly CongestionFactor(t0) and saturation degree X
+      - Provide seamless plug-in bridge in smartroute_integrations.signal matching Thai Bao's router adapter co
+ntract
+      - Add 11 comprehensive unit tests covering iterations, edge cases, defensive validation, and integration 
+with ReferenceCost
+  
+   src/smartroute/routing/__init__.py      |   6 +-
+   src/smartroute/signals/__init__.py      |  23 +++++
+   src/smartroute/signals/webster.py       | 150 ++++++++++++++++++++++++++++
+   src/smartroute_integrations/__init__.py |   1 +
+   src/smartroute_integrations/signal.py   |   5 +
+   tests/routing/test_webster_signal.py    | 161 ++++++++++++++++++++++++++++++
+   6 files changed, 345 insertions(+), 1 deletion(-)

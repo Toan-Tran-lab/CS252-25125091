@@ -90,7 +90,6 @@ python server.py 5500
 **Walkthrough Shown in Video Demonstration:**
 1. In the Web UI, select vehicle **Honda Vision (20cm)**.
 2. Select route: **Ngã tư Hàng Xanh $\to$ ĐH Ngoại Thương CS2 (Nguyễn Gia Trí)**.
-3. Select Scenario: **Đỉnh triều ngập (Flood)** $\implies$ Observe the system automatically reroutes via **Điện Biên Phủ** because Nguyễn Gia Trí is flooded ($30\,\text{cm} > 20\,\text{cm}$).
+3. Select Scenario: **D5 ngập (Flood)** $\implies$ Observe the system automatically reroutes via **Điện Biên Phủ** because D5 is flooded ($30\,\text{cm} > 20\,\text{cm}$).
 4. Switch vehicle to **SUV / Everest (50cm)** $\implies$ The system allows passing directly ($30\,\text{cm} \le 50\,\text{cm}$) with caution badges.
-5. Click **"Bắt đầu hành trình"** (`btnSimulateDrive`) $\implies$ The navigation puck animates along OpenStreetMap coordinates. When approaching within proximity of the hazard, device vibrates, audio beeps, and browser speaks aloud in Vietnamese.
-6. Inspect the ETA card to observe the Webster traffic signal delay decomposition ($\text{ETA} = \text{Driving} + \text{Signals}$).
+5. Click **"Bắt đầu"** (`btnSimulateDrive`) $\implies$ The navigation puck animates along OpenStreetMap coordinates. When approaching within proximity of the hazard, device vibrates, audio beeps, and browser speaks aloud in Vietnamese.
